@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
@@ -11,13 +11,13 @@ export const styles = StyleSheet.create({
     alignItems: "flex-end",
     justifyContent: "center",
     width: "100%",
-    padding: 10,
+    padding: 20,
   },
   displayText: {
     fontSize: 60,
   },
   buttons: {
-    flex: 2,
+    flex: 3,
     flexDirection: "row",
     flexWrap: "wrap",
     width: "100%",
@@ -28,7 +28,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     borderWidth: 1,
     borderColor: "#000",
-    minWidth: 90,
-    minHeight: 75,
+    minWidth: Dimensions.get("window").width / 3,
+    minHeight: Dimensions.get("window").height / 9,
   },
 });

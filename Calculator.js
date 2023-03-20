@@ -44,7 +44,7 @@ export default function Calculator() {
   };
 
   return (
-    <View style={styles.container}>
+    <View>
       <StatusBar style="auto" />
       <View style={styles.display}>
         <Text style={styles.displayText}>
