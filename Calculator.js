@@ -9,7 +9,6 @@ export default function Calculator() {
   const [operator, setOperator] = React.useState("");
 
   const handleNumber = (number) => {
-    console.log("operators " + firstNumber, operator, secondNumber);
     if (operator === "") {
       setFirstNumber(firstNumber * 10 + number);
       setDisplay(number);

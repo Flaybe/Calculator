@@ -4,7 +4,6 @@ import React from "react";
 import Calculator from "./Calculator.js";
 
 export default function App() {
-  console.log({ Calculator });
   return (
     <View style={styles.container}>
       <Calculator />
